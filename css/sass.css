@@ -26,4 +26,11 @@ body { background: #e8e8e8; overflow-x: hidden; height: 10000px; }
 /* line 65, ../sass/sass.sass */
 .close:hover { background: #00d9ff; }
 
+/* line 69, ../sass/sass.sass */
+header div div { padding: 0; margin: 0; }
+/* line 73, ../sass/sass.sass */
+header div div #modal a { position: fixed; }
+/* line 75, ../sass/sass.sass */
+header div div #modal a img { height: 60px; width: 60px; }
+
 /*# sourceMappingURL=sass.css.map */
