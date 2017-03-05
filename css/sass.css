@@ -1,4 +1,14 @@
 /* line 1, ../sass/sass.sass */
-body { background: #e8e8e8; }
+::-webkit-scrollbar { width: 5px; }
+
+/* line 4, ../sass/sass.sass */
+::-webkit-scrollbar-thumb:enabled { border-width: 1px 1px 1px 2px; border-color: #777; background-color: #aaa; }
+/* line 8, ../sass/sass.sass */
+::-webkit-scrollbar-thumb:hover { border-width: 1px 1px 1px 2px; border-color: #555; background-color: #777; }
+/* line 12, ../sass/sass.sass */
+::-webkit-scrollbar-thumb:active { background-color: orange; }
+
+/* line 14, ../sass/sass.sass */
+body { background: #e8e8e8; overflow-x: hidden; height: 10000px; }
 
 /*# sourceMappingURL=sass.css.map */
