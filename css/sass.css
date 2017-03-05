@@ -27,10 +27,10 @@ body { background: #e8e8e8; overflow-x: hidden; height: 10000px; }
 .close:hover { background: #00d9ff; }
 
 /* line 69, ../sass/sass.sass */
-header div div { padding: 0; margin: 0; }
-/* line 73, ../sass/sass.sass */
+header div div { height: 100px; padding: 0; margin: 0; }
+/* line 74, ../sass/sass.sass */
 header div div #modal a { position: fixed; }
-/* line 75, ../sass/sass.sass */
-header div div #modal a img { height: 60px; width: 60px; }
+/* line 76, ../sass/sass.sass */
+header div div #modal a img { float: right; height: 50px; width: 50px; }
 
 /*# sourceMappingURL=sass.css.map */
